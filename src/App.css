@@ -1,1 +1,40 @@
+a {
+  text-decoration: none;
+  color: black;
+}
 
+.App {
+  background-color: lightgray;
+  position: relative;
+  min-width: 320px;
+  max-width: 50em;
+  max-width: none;
+  margin: 0 auto;
+  padding: 1.5em;
+  padding: 0;
+  color: #222222;
+  border: 30px solid #ffffff;
+  background-color: #f8f7f3;
+}
+
+
+.container {
+  background-color: grey;
+  left: 100px;
+  min-height: 100vh;
+  margin: -2rem auto -2rem auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-nav-nav {
+  margin: 0 4em 0 4em; 
+}
