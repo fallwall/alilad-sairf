@@ -11,7 +11,6 @@ export default function Container() {
       <Main />
       <Contact />
       <Social />
-
     </div>
   )
 }
