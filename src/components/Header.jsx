@@ -16,7 +16,7 @@ export default function Header(props) {
         </div>
       </div>
       <div>
-        <a href="#">Dalila Sairf</a>
+        <div className="nav-nav-main" onClick={props.changeView} name="isMain">Dalila Frias</div>
       </div>
     </div>
   )

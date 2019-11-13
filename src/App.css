@@ -42,7 +42,17 @@ a {
   margin: 0 10% 0 10%; 
 }
 
+.nav-nav-nav, .nav-nav-main {
+  cursor: crosshair;
+}
+
 /* body */
+
+/* main content */
+.changeable {
+ font-weight: 700;
+ display: inline;
+}
 
 /* footer */
 

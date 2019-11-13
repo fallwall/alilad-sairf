@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function MainContent() {
 
@@ -14,17 +14,23 @@ export default function MainContent() {
   const changePpl = () => setPpl(pplArr[Math.floor(Math.random() * pplArr.length)]);
 
   useEffect(() => {
-      if (role <= 0) {
-        return;
-      }
-      const id = setInterval(changeRole, 5000);
-      return () => clearInterval(id);
-    }, [role]);
-  
+    if (role <= 0 || act <= 0 || ppl <= 0) {
+      return;
+    }
+    const nextRole = setInterval(changeRole, 5000);
+    const nextAct = setInterval(changeAct, 5000);
+    const nextPpl = setInterval(changePpl, 5000);
+    return () => {
+      clearInterval(nextRole);
+      clearInterval(nextAct);
+      clearInterval(nextPpl);
+    }
+  }, [role, act, ppl]);
+
   return (
     <div>
       <p>MAIN CONTENT STUFF</p>
-      <p>Dalila Frias is a {role}. She {act} and works with {ppl} on websites and publishing projects. </p>
+      <p>Dalila Frias is a <div className="changeable">{role}</div>. She <div className="changeable">{act}</div> and works with <div className="changeable">{ppl}</div> on websites and publishing projects. </p>
     </div>
   )
 }
