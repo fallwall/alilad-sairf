@@ -1,7 +1,7 @@
 import React from 'react';
 import sunflower from './sunflower.svg'
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div className="header">
       <div className="nav">
@@ -9,10 +9,10 @@ export default function Header() {
           <img src={sunflower} style={{ height: "20px" }} />
         </div>
         <div className="nav-nav">
-          <div className="nav-nav-nav">ABOUT</div>
-          <div className="nav-nav-nav">WRITING</div>
-          <div className="nav-nav-nav">SPEAKING</div>
-          <div className="nav-nav-nav">PROJECTS</div>
+          <div className="nav-nav-nav" onClick={props.changeView} name="isAbout">ABOUT</div>
+          <div className="nav-nav-nav" onClick={props.changeView} name="isWriting">WRITING</div>
+          <div className="nav-nav-nav" onClick={props.changeView} name="isSpeaking">SPEAKING</div>
+          <div className="nav-nav-nav" onClick={props.changeView} name="isProject">PROJECTS</div>
         </div>
       </div>
       <div>

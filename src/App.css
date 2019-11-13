@@ -25,9 +25,12 @@ a {
   margin: -2rem auto -2rem auto;
 }
 
+/* header */
+
 .nav {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .nav-nav {
@@ -36,5 +39,32 @@ a {
 }
 
 .nav-nav-nav {
-  margin: 0 4em 0 4em; 
+  margin: 0 10% 0 10%; 
+}
+
+/* body */
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact, .social {
+  width: 47%;
+  line-height: 1.2;
+  margin: 0 1.5% 0 1.5%;
+}
+
+/* contact */
+
+.contact {
+  background-color: #f4c3b4;
+}
+
+/* social */
+
+.social {
+  background-color: #b9c5b0;
 }
