@@ -7,7 +7,7 @@ import Social from './Social';
 export default function Container() {
   return (
     <div>
-      <Head />
+      <Header />
       <Main />
       <Contact />
       <Social />
