@@ -5,8 +5,11 @@ export default function Speaking() {
     <div>
       <p>SPEAKING STUFF</p>
       <div className="img-container">
-        <img className="cover-img" src="https://i.imgur.com/kZgQkbJ.jpg" />
-        <div className="centered">Speaking</div>
+        <img id="centered1" className="cover-img" src="https://i.imgur.com/kZgQkbJ.jpg" />
+        <div id="centered2" className="centered">Speaking</div>
+      </div>
+      <div className="main-text">
+        <p>Dalila hosts workshops on community events.</p>
       </div>
     </div>
   )
