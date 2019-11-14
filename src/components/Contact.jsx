@@ -5,16 +5,14 @@ export default function Contact() {
     <div className="contact">
       <div className="footer-content">
         <div className="footer-content-icon">
-        <a href="mailto:dalilafrias@gmail.com">
-          <i class="big envelope outline icon"></i>
+          <a href="mailto:dalilafrias@gmail.com">
+            <i class="big envelope outline icon"></i>
           </a>
-          </div>
+        </div>
         <br />
-        <a href="mailto:dalilafrias@gmail.com">
-          <i class="big chevron left icon"></i>
-          Shoot me an email /
+        <i class="big chevron left icon"></i>
+        Shoot me an email /
           <i class="big chevron right icon"></i>
-        </a>
       </div>
     </div>
   )
