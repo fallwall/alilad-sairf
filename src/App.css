@@ -65,7 +65,7 @@ a {
 
 /* body */
 .main {
-  min-height: 500px;
+  min-height: 300px;
 }
 
 .main-text {
@@ -110,6 +110,7 @@ a {
 .footer {
   display: flex;
   flex-direction: row;
+  margin: 5% auto 2% auto;
 }
 
 .contact, .social {
