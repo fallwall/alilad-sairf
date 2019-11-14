@@ -31,7 +31,7 @@ export default function MainContent() {
     <div>
 
       <div className="main-text">
-        <p>Dalila Frias is a <div className="changeable">{role}</div>. She <div className="changeable">{act}</div> and works with <div className="changeable">{ppl}</div> on websites and publishing projects. </p>
+        <p>Dalila Frias is a New York based <div className="changeable">{role}</div>.  She <div className="changeable">{act}</div> and works with <div className="changeable">{ppl}</div> on websites and publishing projects. </p>
       </div>
     </div>
   )

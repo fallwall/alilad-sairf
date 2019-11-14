@@ -55,6 +55,7 @@ a {
 }
 
 .nav-nav-nav:hover {
+  font-weight: 800;
   text-decoration: underline;
   text-decoration-color: rgb(241, 112, 51);
   text-decoration-skip: spaces;
@@ -71,6 +72,7 @@ a {
 
 .main-text {
   line-height: 2.5em;
+  max-width: 900px;
   font-size: 2em;
   margin: 3%;
   text-indent: 2em;
@@ -117,11 +119,28 @@ a {
 }
 
 .contact, .social {
+
   width: 47%;
   line-height: 1.2;
   margin: 0 1.5%;
 }
 
+.footer-content {
+  margin: 10%;
+  font-size: 1em;
+  font-weight: 800;
+  
+}
+
+.footer-content i {
+  display: inline-block;
+  word-wrap: normal;
+  margin: 1%;
+}
+
+.footer-content-icon {
+  margin: 0 35%;
+}
 /* contact */
 
 .contact {

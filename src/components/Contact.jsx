@@ -3,11 +3,19 @@ import React from 'react';
 export default function Contact() {
   return (
     <div className="contact">
-      <p>Conact Me</p>
-      <i class="big envelope outline icon"></i>
-      <i class="big chevron left icon"></i>
-      /
-      <i class="big chevron right icon"></i>
+      <div className="footer-content">
+        <div className="footer-content-icon">
+        <a href="mailto:dalilafrias@gmail.com">
+          <i class="big envelope outline icon"></i>
+          </a>
+          </div>
+        <br />
+        <a href="mailto:dalilafrias@gmail.com">
+          <i class="big chevron left icon"></i>
+          Shoot me an email /
+          <i class="big chevron right icon"></i>
+        </a>
+      </div>
     </div>
   )
 }
