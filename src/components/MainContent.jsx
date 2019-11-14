@@ -29,7 +29,7 @@ export default function MainContent() {
 
   return (
     <div>
-      <p>MAIN CONTENT STUFF</p>
+      
       <div className="main-text">
         <p>Dalila Frias is a <div className="changeable">{role}</div>. She <div className="changeable">{act}</div> and works with <div className="changeable">{ppl}</div> on websites and publishing projects. </p>
       </div>

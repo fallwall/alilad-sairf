@@ -71,6 +71,7 @@ a {
 .main-text {
   line-height: 2em;
   margin: 3%;
+  text-indent: 2em;
 }
 
 /* main content */

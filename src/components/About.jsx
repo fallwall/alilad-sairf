@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <p>ABOUT STUFF</p>
+      
       <div className="img-container">
         <img className="cover-img" src="https://i.imgur.com/J9tXqEm.jpg" />
         <div className="centered">About Dalila</div>
