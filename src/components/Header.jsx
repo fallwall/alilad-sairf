@@ -1,4 +1,5 @@
 import React from 'react';
+import Spin from 'react-reveal/Spin';
 import sunflower from './sunflower.svg'
 
 export default function Header(props) {
@@ -6,7 +7,9 @@ export default function Header(props) {
     <div className="header">
       <div className="nav">
         <div className="logo">
-          <img src={sunflower} style={{ height: "20px" }} />
+          <Spin>
+            <img src={sunflower} style={{ height: "30px" }} />
+          </Spin>
         </div>
         <div className="nav-nav">
           <div className="nav-nav-nav" onClick={props.changeView} name="isAbout">ABOUT</div>
